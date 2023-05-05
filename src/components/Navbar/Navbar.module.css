@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar__container {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100vw;
+    padding: 20px;
+}
+
+.navbar__dark,
+.navbar__light {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+
+
+.homeButton__dark  {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.homeButton__light {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000046;
+}
+
+.toggleButton__container {
+    display: flex;
+    justify-content: flex-end;
+}
+

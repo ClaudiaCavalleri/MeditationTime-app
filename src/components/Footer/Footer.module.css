@@ -1,0 +1,15 @@
+.footer__dark,
+.footer__light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.footer__dark {
+    color: #FFFFFF;
+}
+
+.footer__light {
+    color: #000046;
+}

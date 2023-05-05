@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.quoteContainer__dark,
+.quoteContainer__light {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    width: 100vw;
+    height: 50vh;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.quoteContainer__dark {
+    color: #FFFFFF;
+}
+
+.quoteContainer__light {
+    color: #000046;
+}
+
+.quoteText {
+    margin-top: 10%;
+    font-size: 1.5rem;
+}
+
+.quoteAuthor {
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+.quoteButton {
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.7rem;
+}
+
+.quoteContainer__light > button {
+    background-color: #1CB5E0;
+}
+
+.quoteContainer__dark > button {
+    background-color: #000046;
+    color: #FFFFFF;
+}
+
+

@@ -1,0 +1,23 @@
+.slider {
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.slider::before {
+    transform: rotate(-359deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.inputToggleSwitch {
+    display: none;
+}
+
+input:checked + .slider{
+    transform: rotate(-359deg);
+}
+
+
+
+
+
