@@ -13,10 +13,7 @@ export default function SoundItem(props) {
 
     useEffect(() => {
         if (isPlaying) {
-            audioRef.current.play();
-            console.log(props.item.id);
-            console.log(props.item.soundUrl);
-            console.log(soundData)
+            audioRef.current.play()
         } else {
             audioRef.current.pause();
         }
