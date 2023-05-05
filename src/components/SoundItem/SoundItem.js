@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef, useContext } from "react";
 import { ThemeContext } from "../../context/ThemeContext";
 import style from "./SoundItem.module.css";
 import { BsFillVolumeOffFill, BsFillVolumeDownFill } from "react-icons/bs";
-import soundData from "../../data/SoundtrackData";
 
 
 export default function SoundItem(props) {
